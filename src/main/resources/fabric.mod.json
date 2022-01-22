@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "block",
+  "version": "${version}",
+  "name": "BLOCK",
+  "description": "block",
+  "authors": [
+    "mioutwo"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/BLOCK/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "mioutwo.block.block.client.BLOCKClient"
+    ],
+    "main": [
+      "mioutwo.block.block.BLOCK"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  },
+  "custom": {
+    "vanguard": {
+      "update-url": "https://illuminations.glitch.me/latest?version="
+    }
+  }
+}

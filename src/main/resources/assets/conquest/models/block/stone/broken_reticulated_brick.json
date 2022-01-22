@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "conquest:block/stone/broken_reticulated_brick"
+  }
+}
