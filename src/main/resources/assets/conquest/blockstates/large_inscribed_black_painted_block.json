@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "chisel:block/andesite/andesite_solid_bricks"
-    }
-  }
-}
+{"variants":{"":{"model":"conquest:block/large_inscribed_black_painted_block"}}}

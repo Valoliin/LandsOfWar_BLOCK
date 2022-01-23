@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "conquest:block/stone/blue_schist_cobble"
-    }
-  }
-}
+{"variants":{"":{"model":"conquest:block/blue_schist_cobble"}}}

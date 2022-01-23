@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "chisel:block/andesite/andesite_tiles_large"
-    }
-  }
-}
+{"variants":{"":{"model":"conquest:block/mixed_fanpattern_setts"}}}

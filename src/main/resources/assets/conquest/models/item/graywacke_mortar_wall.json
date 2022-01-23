@@ -1,3 +1,1 @@
-{
-  "parent": "conquest:block/stone/graywacke_mortar_wall"
-}
+{"parent":"conquest:block/graywacke_mortar_wall"}

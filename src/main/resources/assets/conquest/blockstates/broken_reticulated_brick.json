@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "conquest:block/stone/broken_reticulated_brick"
-    }
-  }
-}
+{"variants":{"":{"model":"conquest:block/broken_reticulated_brick"}}}

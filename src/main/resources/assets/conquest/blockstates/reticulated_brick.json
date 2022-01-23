@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "chisel:block/andesite/andesite_tiles_small"
-    }
-  }
-}
+{"variants":{"":{"model":"conquest:block/reticulated_brick"}}}

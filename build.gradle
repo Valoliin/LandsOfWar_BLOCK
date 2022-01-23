@@ -3,6 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
+
 version = project.mod_version
 group = project.maven_group
 
@@ -12,12 +13,6 @@ repositories {
     // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html
     // for more information about repositories.
-    //maven { url 'https://jitpack.io' }
-    // Ladysnake bintray
-    //maven {
-        //name = "Ladysnake Libs"
-      //  url = "https://dl.bintray.com/ladysnake/libs"
-    //}
 }
 
 dependencies {
@@ -28,11 +23,6 @@ dependencies {
 
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-    //modCompileOnly "io.github.ladysnake:vanguard:${vanguard_version}"
-
-    //implementation 'com.github.ladysnake:vanguard:1.0.5'
-    include 'com.github.ladysnake:vanguard:1.0.5'
 }
 
 processResources {
@@ -75,19 +65,19 @@ jar {
 }
 
 // configure the maven publication
-publishing {
+/*publishing {
     publications {
         mavenJava(MavenPublication) {
             from components.java
         }
     }
-
+*/
     // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
-    repositories {
+    //repositories {
         // Add repositories to publish to here.
         // Notice: This block does NOT have the same function as the block in the top level.
         // The repositories here will be used for publishing your artifact, not for
         // retrieving dependencies.
 
-    }
-}
+  //  }
+//}

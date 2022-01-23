@@ -23,10 +23,5 @@
     "fabricloader": ">=0.12.12",
     "fabric": "*",
     "minecraft": "1.18.1"
-  },
-  "custom": {
-    "vanguard": {
-      "update-url": "https://illuminations.glitch.me/latest?version="
-    }
   }
 }

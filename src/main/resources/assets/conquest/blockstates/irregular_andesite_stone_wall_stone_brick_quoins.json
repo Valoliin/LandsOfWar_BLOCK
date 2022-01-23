@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "chisel:block/andesite/andesite_road"
-    }
-  }
-}
+{"variants":{"":{"model":"conquest:block/irregular_andesite_stone_wall_stone_brick_quoins"}}}

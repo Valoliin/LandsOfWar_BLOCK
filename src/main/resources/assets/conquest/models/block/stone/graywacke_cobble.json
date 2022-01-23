@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "conquest:block/stone/graywacke_cobble"
-  }
-}
